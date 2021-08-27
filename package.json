@@ -2,6 +2,7 @@
     "name": "cc-test-descriptor",
     "displayName": "cc-test-descriptor",
     "publisher": "nathanwhit",
+    "repository": {"url": "https://github.com/nathanwhit/cc-test-descriptor"},
     "description": "",
     "version": "0.0.1",
     "engines": {
