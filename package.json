@@ -1,0 +1,25 @@
+{
+    "name": "cc-test-descriptor",
+    "displayName": "cc-test-descriptor",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "cctest",
+            "aliases": ["CC Test Descriptor", "cctest"],
+            "extensions": ["cctest"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "cctest",
+            "scopeName": "source.cctest",
+            "path": "./syntaxes/cctest.tmLanguage.json"
+        }]
+    }
+}
